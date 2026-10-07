@@ -1,0 +1,40 @@
+{
+  "best_model": "Random Forest",
+  "cv_accuracy": {
+    "Logistic Regression": {
+      "mean": 0.527,
+      "std": 0.0735
+    },
+    "Random Forest": {
+      "mean": 0.568,
+      "std": 0.0749
+    },
+    "Gradient Boosting": {
+      "mean": 0.519,
+      "std": 0.0719
+    }
+  },
+  "n_samples": 143,
+  "feature_importance": {
+    "cgpa": 0.09417820093435898,
+    "entry_level_skills": 0.08862120123541378,
+    "python": 0.07591271705729587,
+    "dsa": 0.07505152304668536,
+    "sql": 0.0699694120652921,
+    "technical_confidence": 0.06689647516841575,
+    "year": 0.06234022437441359,
+    "attendance": 0.06004951197328172,
+    "interview_practice": 0.05729157123342556,
+    "preparation_hours": 0.050170876323140066,
+    "mock_interview": 0.04993008839873176,
+    "coding_problems": 0.04761770000703989,
+    "job_confidence": 0.03476615708884406,
+    "data_analyst": 0.03247742545149155,
+    "machine_learning": 0.029229853360978303,
+    "technical_projects": 0.02914065936976954,
+    "github": 0.024608746641327096,
+    "resume": 0.0206623534885099,
+    "internship": 0.018269151402722932,
+    "hackathon": 0.0128161513788621
+  }
+}
